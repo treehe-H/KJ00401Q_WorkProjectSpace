@@ -13,6 +13,13 @@ import java.util.List;
  */
 @Repository
 public interface UserDao {
+	/**
+	 * <b>根据查询对象查询列表</b>
+	 * @param query
+	 * @return
+	 * @throws Exception
+	 */
+	List<User> findListByQuery(User query) throws Exception;
 
 	/**
 	 * <b>保存用户信息</b>
@@ -22,4 +29,11 @@ public interface UserDao {
 	 */
 	Integer save(User user) throws Exception;
 
+	/**
+	 * <b>修改用户信息</b>
+	 * @param user
+	 * @return
+	 * @throws Exception
+	 */
+	Integer update(User user) throws Exception;
 }

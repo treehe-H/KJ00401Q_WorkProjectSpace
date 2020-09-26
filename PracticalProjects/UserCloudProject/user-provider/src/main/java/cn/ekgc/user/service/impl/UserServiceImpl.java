@@ -24,6 +24,7 @@ public class UserServiceImpl implements UserService {
 	 */
 	@Override
 	public boolean save(User user) throws Exception {
+		//进行唯一性校验（手机号码、身份证号码、电子邮件）
 		int count = userDao.save(user);
 
 		if(count > 0) {
