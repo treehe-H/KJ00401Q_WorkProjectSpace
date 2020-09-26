@@ -1,4 +1,4 @@
-package cn.ekgc.ums;
+package cn.ekgc.user;
 
 /**
  * Hello world!

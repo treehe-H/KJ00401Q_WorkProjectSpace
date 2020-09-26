@@ -1,7 +1,5 @@
 package cn.ekgc.user.pojo.entity;
 
-import org.springframework.scheduling.support.SimpleTriggerContext;
-
 import java.io.Serializable;
 import java.util.Date;
 
@@ -12,7 +10,7 @@ import java.util.Date;
  * @since 1.0.0
  */
 public class User implements Serializable {
-	private static final long serialVersionUID = 4853697898306087409L;
+	private static final long serialVersionUID = -2370018979399879585L;
 	private Long id;                       //主键
 	private String name;                   //姓名
 	private String cellphone;              //手机号码
